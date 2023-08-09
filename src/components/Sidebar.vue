@@ -4,8 +4,8 @@
             <img src="../../public/profilepooria.png" alt="shafiqhammad" class="rounded-full" />
         </div>
         <div class="text-center">
-            <h1 class="text-xl text-gray-800 font-bold mb-1">{{ $t('pooriavakili') }}</h1>
-            <p class=" text-gray-800 font-bold mb-3">
+            <h1 class="text-xl text-gray-800 dark:text-white font-bold mb-1">{{ $t('pooriavakili') }}</h1>
+            <p class=" text-gray-800 font-bold mb-3 dark:text-white">
                 {{ $t('frontend') }}
 
             </p>

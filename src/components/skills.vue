@@ -40,110 +40,69 @@ const skills = [
         id: 0,
         src: 'html.png',
         title: "html"
-
-
     },
     {
         id: 1,
         src: "css.png",
         title: 'css'
-
-
     },
     {
         id: 2,
         src: "bootstrap.png",
         title: 'bootstrap'
-
-
     },
     {
         id: 3,
         src: "tailwind.png",
         title: 'tailwind'
-
-
     },
     {
         id: 4,
-        src: "supabase.jpg",
-        title: 'supabase'
-
-
-    }, {
-        id: 5,
         src: "javascript.png",
         title: 'javascript'
-
-
+    },
+    {
+        id: 5,
+        src: "typescript.png",
+        title: 'typescript'
     },
     {
         id: 6,
-        src: "typescript.png",
-        title: 'typescript'
-
+        src: "vue.png",
+        title: "vue"
     },
     {
         id: 7,
-        src: "vue.png",
-        title: "vue"
-
-
-    },
-    {
-        id: 8,
         src: "react.png",
         title: "react"
-
-
     },
     {
         id: 8,
         src: "react.png",
         title: "context-api"
-
-
     },
     {
         id: 9,
         src: "nuxt.png",
         title: "nuxtjs"
-
-
     },
     {
         id: 10,
         src: "nextjs.png",
         title: "nextjs"
-
-
     },
     {
         id: 11,
         src: "git.png",
         title: "git"
-
-
-
     },
-
-
-
-
-
     {
         id: 12,
         src: "postman.png",
         title: 'postman'
-
     },
 
-    {
-        id: 13,
-        src: "pinia.png",
-        title: 'pinia'
 
-    },
 
 ]
 </script>

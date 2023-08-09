@@ -1,36 +1,33 @@
 import { createRouter, createWebHistory } from "vue-router";
-
 const routes = [
-
     {
-        path: '/',
         name: 'resume',
         ///@ts-ignore
         component: () => import("../components/resume.vue")
     },
     {
-        path: '/portfolio',
         name: 'portfolio',
         ///@ts-ignore
         component: () => import("../components/Portfolio.vue")
     },
     {
-        path: '/works',
         name: "works",
         ///@ts-ignore
         component: () => import("../components/Work.vue")
     },
     {
-        path: '/about',
-        name: "about",
+        name: "skills",
         ///@ts-ignore
-        component: () => import("../components/about.vue")
+        component: () => import("../components/skills.vue")
     }
 
 
 ]
 const router = createRouter({
+    ///@ts-ignore
+    mode: 'history',
     history: createWebHistory(),
+    ///@ts-ignore
     routes
 })
 export default router
