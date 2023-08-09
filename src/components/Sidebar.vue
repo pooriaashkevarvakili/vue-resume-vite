@@ -5,7 +5,7 @@
         </div>
         <div class="text-center">
             <h1 class="text-xl text-gray-800 font-bold mb-1">{{ $t('pooriavakili') }}</h1>
-            <p class="text-sm text-gray-400 mb-3">
+            <p class=" text-gray-800 font-bold mb-3">
                 {{ $t('frontend') }}
 
             </p>
@@ -32,7 +32,7 @@
 
                 </select>
             </form>
-            <ul className="flex flex-wrap justify-center">
+            <ul className="flex flex-wrap mt-4 justify-center">
                 <li class="m-2">
                     <a href="https://github.com/pooriaashkevarvakili"
                         class="w-8 h-8 bg-purple-100 rounded  flex items-center justify-center ">
@@ -81,10 +81,10 @@
             </ul>
         </div>
         <div dir="auto" class="text-start pt-4">
-            <h3 class=" mb-2  text-gray-800 dark:text-white">
-                {{ $t('aboutNavbar') }}
+            <h3 class=" mb-2  text-gray-800 dark:text-white font-bold">
+                {{ $t('About Me') }}
             </h3>
-            <p class="text-gray-400  dark:text-white">
+            <p class="text-gray-800  dark:text-white">
                 {{ $t('about') }}
             </p>
         </div>
