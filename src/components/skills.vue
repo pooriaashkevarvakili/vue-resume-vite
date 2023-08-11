@@ -34,7 +34,10 @@
 </template>
 
 <script setup>
-
+import { onMounted } from 'vue'
+onMounted(() => {
+    document.title = "skills"
+})
 const skills = [
     {
         id: 0,

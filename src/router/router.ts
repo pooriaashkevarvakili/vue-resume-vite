@@ -19,7 +19,8 @@ const routes = [
         name: "skills",
         ///@ts-ignore
         component: () => import("../components/skills.vue")
-    }
+    },
+
 
 
 ]

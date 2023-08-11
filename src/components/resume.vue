@@ -65,8 +65,10 @@
 </template>
 
 <script setup>
-
-
+import { onMounted } from 'vue'
+onMounted(() => {
+    document.title = "resume"
+})
 </script>
 
 <style></style>

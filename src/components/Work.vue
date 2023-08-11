@@ -140,7 +140,10 @@
 
 <script setup>
 import eye from "./eye.vue"
-
+import { onMounted } from 'vue'
+onMounted(() => {
+    document.title = "work"
+})
 </script>
 
 <style></style>

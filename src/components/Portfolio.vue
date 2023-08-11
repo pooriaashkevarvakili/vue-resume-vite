@@ -217,6 +217,9 @@
 </template>
 <script setup>
 import eye from "./eye.vue"
-import PortfolioOne from "./portfolio-one.vue"
+import { onMounted } from 'vue'
+onMounted(() => {
+    document.title = "portfolio"
+})
 </script>
 <style></style>
