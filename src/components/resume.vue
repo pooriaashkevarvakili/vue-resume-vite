@@ -10,7 +10,7 @@
                         class="absolute dark:bg-green-400  transition duration-200  bg-purple-100 bg-opacity-80 w-full flex items-center justify-center h-full left-0 top-0  ">
                         <ul class="flex flex-wrap ">
                             <li class="m-2 ">
-                                <a href="https://s31.picofile.com/d/8471505592/6a62e241-72c3-407c-8c61-66d6d2e2e999/resume_front_end_final.pdf" target="_blank" download rel="noreferrer"
+                                <a href="https://s31.picofile.com/d/8471505768/1b52afb5-73a2-47b9-8dca-abbb6a70c2c6/resume_front_end_final.pdf" target="_blank" download rel="noreferrer"
                                     class=" text-xl   text-white flex items-center justify-center    ">
                                     <div class="text-justify">
 
