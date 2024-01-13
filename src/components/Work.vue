@@ -26,7 +26,7 @@
                 <div class="mt-2" dir="auto">
                     <p class=" text-xl  dark:text-white    ">
 
-                        {{ $t('fourMonth', {
+                        {{ $t('fiveMonth', {
                             name:
                                 'fourMonth'
                         }) }}
@@ -61,9 +61,9 @@
                 <div class="mt-2" dir="auto">
                     <p class=" text-xl  dark:text-white    ">
 
-                        {{ $t('fiveteen', {
+                        {{ $t('sixteen', {
                             name:
-                                'fiveteen'
+                                'sixteen'
                         }) }}
                     </p>
                 </div>

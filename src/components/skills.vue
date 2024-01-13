@@ -74,36 +74,19 @@ const skills = [
         src: "vue.png",
         title: "vue"
     },
+    
     {
         id: 7,
-        src: "react.png",
-        title: "react"
-    },
-    {
-        id: 8,
-        src: "react.png",
-        title: "context-api"
-    },
-    {
-        id: 9,
         src: "nuxt.png",
         title: "nuxtjs"
     },
+   
     {
-        id: 10,
-        src: "nextjs.png",
-        title: "nextjs"
-    },
-    {
-        id: 11,
+        id: 8,
         src: "git.png",
         title: "git"
     },
-    {
-        id: 12,
-        src: "postman.png",
-        title: 'postman'
-    },
+   
 
 
 
