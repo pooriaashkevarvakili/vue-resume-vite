@@ -1,4 +1,5 @@
 <template>
+  
     <div class="flex flex-wrap md:px-4 gap-2   2xl:ml-12 xl:ml-12 lg:ml-0 ">
         <div class="w-full 2xl:-ml-12 xl:-ml-12 2xl:w-1/2 xl:w-1/2 4xl:ml-12 md:-ml-0 sm:ml-6  5xl:ml-12  xs:ml-0">
             <div
@@ -10,7 +11,8 @@
                         class="absolute dark:bg-green-400  transition duration-200  bg-purple-100 bg-opacity-80 w-full flex items-center justify-center h-full left-0 top-0  ">
                         <ul class="flex flex-wrap ">
                             <li class="m-2 ">
-                                <a href="https://s31.picofile.com/d/8471505768/1b52afb5-73a2-47b9-8dca-abbb6a70c2c6/resume_front_end_final.pdf" target="_blank" download rel="noreferrer"
+                                <a href="https://s31.picofile.com/d/8471766500/741e5ab5-7521-43b5-8885-a1ec1e941121/%D8%B1%D8%B2%D9%88%D9%85%D9%87_2.pdf"
+                                    target="_blank" download rel="noreferrer"
                                     class=" text-xl   text-white flex items-center justify-center    ">
                                     <div class="text-justify">
 
@@ -55,20 +57,19 @@
                         </ul>
                     </div>
                 </div>
-
             </div>
         </div>
-
-
-
     </div>
 </template>
 
 <script setup>
+
 import eye from "./eye.vue"
 import { onMounted } from 'vue'
+import { useI18n } from 'vue-i18n'
+const {t}=useI18n()
 onMounted(() => {
-    document.title = "resume"
+    document.title = t('resume')
 })
 </script>
 

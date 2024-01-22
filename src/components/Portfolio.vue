@@ -155,7 +155,7 @@
                         class="absolute opacity-0 transition duration-200 bg-purple-100 bg-opacity-80 w-full flex items-center justify-center h-full left-0 top-0 group-hover:opacity-100 group-hover:visible">
                         <ul class="flex flex-wrap">
                             <li class="m-2">
-                                <a href="https://magnificent-biscuit-75cc5f.netlify.app/" target="_blank" rel="noreferrer"
+                                <a href="https://pooriaashkevarvakili.ir" target="_blank" rel="noreferrer"
                                     class="w-12 h-10 text-xl text-purple-600 flex items-center justify-center border-2 border-purple-600 rounded hover:text-white hover:bg-purple-600">
                                     <eye />
                                 </a>
@@ -183,10 +183,12 @@
     </div>
 </template>
 <script setup>
+import {useI18n} from "vue-i18n"
 import eye from "./eye.vue"
 import { onMounted } from 'vue'
+const {t}=useI18n()
 onMounted(() => {
-    document.title = "portfolio"
+    document.title = t("portfolio")
 })
 </script>
 <style></style>

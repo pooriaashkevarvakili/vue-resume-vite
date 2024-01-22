@@ -143,10 +143,12 @@
     </div>
 </template>
 <script setup>
+import {useI18n} from "vue-i18n"
 import eye from "./eye.vue"
 import { onMounted } from 'vue'
+const {t}=useI18n()
 onMounted(() => {
-    document.title = "work"
+    document.title =t("work")
 })
 </script>
 <style></style>

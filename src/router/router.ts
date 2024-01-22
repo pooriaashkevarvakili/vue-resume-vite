@@ -3,7 +3,8 @@ const routes = [
     {
         name: 'resume',
         ///@ts-ignore
-        component: () => import("../components/resume.vue")
+        component: () => import("../components/resume.vue"),
+      
     },
     {
         name: 'portfolio',
