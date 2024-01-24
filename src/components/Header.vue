@@ -11,7 +11,7 @@
 
                 <router-link dir="auto" :to="{ name: 'skills' }"
                     class="text-gray-800 dark:text-white text-medium hover:text-purple-600">
-                    {{ $t('skills', { name: 'skills' }) }}
+                    {{ $t('Skills', { name: 'Skills' }) }}
                 </router-link>
             </li>
             <li class="m-3 lg:mx-5">

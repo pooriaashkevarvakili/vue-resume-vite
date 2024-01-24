@@ -39,7 +39,7 @@ import { useI18n } from 'vue-i18n'
 import { onMounted } from 'vue'
 const {t}=useI18n()
 onMounted(() => {
-    document.title = t("skills")
+    document.title = t("Skills")
 })
 const skills = [
     {
