@@ -9,6 +9,11 @@
                 {{ $t('frontend') }}
 
             </p>
+            <div class="text-center">
+                <p style="font-family: Arial, Helvetica, sans-serif;" class=" text-gray-800 text-lg dark:text-white">{{ $t('mobile') }}</p>
+
+            </div>
+           
             <button @click="toggle()">
                 <svg v-if="isDark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="w-6 h-6 fill-black dark:fill-white">

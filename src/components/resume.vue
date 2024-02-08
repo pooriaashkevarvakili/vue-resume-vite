@@ -11,7 +11,7 @@
                         class="absolute dark:bg-green-400  transition duration-200  bg-purple-100 bg-opacity-80 w-full flex items-center justify-center h-full left-0 top-0  ">
                         <ul class="flex flex-wrap ">
                             <li class="m-2 ">
-                                <a href="https://s31.picofile.com/d/8471766500/741e5ab5-7521-43b5-8885-a1ec1e941121/%D8%B1%D8%B2%D9%88%D9%85%D9%87_2.pdf"
+                                <a href="https://s30.picofile.com/d/8471923576/80e0bbbd-69dd-4114-82e3-80f521a8233d/frontenddeveloper.pdf"
                                     target="_blank" download rel="noreferrer"
                                     class=" text-xl   text-white flex items-center justify-center    ">
                                     <div class="text-justify">

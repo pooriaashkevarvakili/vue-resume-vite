@@ -38,7 +38,7 @@
         </div>
 
 
-        <div class="w-full 2xl:-ml-2 xl:-ml-2 lg:ml-2 2xl:w-1/2 xl:w-1/2 xs:-ml-0 md:ml-2 sm:ml-10  5xl:-ml-0 4xl:-ml-0 ">
+        <div class="w-full 2xl:ml-2 xl:ml-2 lg:ml-2 2xl:w-1/2 xl:w-1/2 xs:-ml-0 md:ml-2 sm:ml-10  5xl:-ml-0 4xl:-ml-0 ">
             <div class="my-4 md:mx-4 sm:-ml-12 shadow p-6 rounded-md dark:bg-slate-800 bg-white group hover:shadow-md">
                 <div class="relative mb-6 w-full h-48 bg-purple-200 rounded-md overflow-hidden">
                     <img src="../../public/radar.png" alt="coverImage" class="w-full h-full object-cover object-center" />
@@ -109,7 +109,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-full 2xl:w-1/2 xl:w-1/2 lg:ml-2 2xl:-ml-2 xl:-ml-2 xs:-ml-0 md:ml-2 sm:ml-10 5xl:-ml-0 4xl:-ml-0 ">
+        <div class="w-full 2xl:w-1/2 xl:w-1/2 lg:ml-2 2xl:ml-2 xl:ml-2 xs:-ml-0 md:ml-2 sm:ml-10 5xl:-ml-0 4xl:-ml-0 ">
             <div class="my-4 md:mx-4 sm:-ml-12 shadow p-6 rounded-md dark:bg-slate-800 bg-white group hover:shadow-md">
                 <div class="relative mb-6 w-full h-48 bg-purple-200 rounded-md overflow-hidden">
                     <img src="../../public/weblog_personal.png" alt="coverImage"

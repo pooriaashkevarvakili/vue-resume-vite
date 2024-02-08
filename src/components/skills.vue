@@ -5,7 +5,7 @@
             <section class="pb-10">
                 <div class="flex flex-wrap md:px-4 gap-6    2xl:ml-12 xl:ml-12 lg:ml-0">
                     <div v-for="item in skills" :key="item.id"
-                        class="w-full 2xl:w-1/2 2xl:-ml-10 xl:-ml-10  xl:w-1/2 md:-ml-2 sm:ml-12 4xl:ml-0  5xl:ml-0 xs:-ml-0 ">
+                        class="w-full 2xl:w-1/2 2xl:-ml-4 xl:-ml-4  xl:w-1/2 md:-ml-2 sm:ml-12 4xl:ml-0  5xl:ml-0 xs:-ml-0 ">
                         <div
                             class="my-4 md:mx-4 sm:-ml-14 shadow p-6 rounded-md dark:bg-slate-800 bg-white group hover:shadow-md">
                             <div class="relative mb-6 w-full h-48 bg-purple-200 rounded-md overflow-hidden">
@@ -83,9 +83,19 @@ const skills = [
         src: "nuxt.png",
         title: "nuxtjs"
     },
+    {
+id:8,
+src:'react.png',
+title:'react'
+    },
+    {
+id:9,
+src:'nextjs.png',
+title:'nextjs'
+    },
    
     {
-        id: 8,
+        id: 10,
         src: "git.png",
         title: "git"
     },
